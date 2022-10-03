@@ -12,6 +12,8 @@ struct ContentView: View {
                 
     
         Image("logo")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
     }
 }
 
