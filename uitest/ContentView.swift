@@ -10,9 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
                 
-        Text("Hello").padding()
-            .background(Color.blue)
-        
+        Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            .background(Color.brown
+                .blur(radius: /*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/))
+            
     }
 }
 
