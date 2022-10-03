@@ -10,10 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
                 
-    
-        Image("logo")
-            .resizable()
-            .aspectRatio(contentMode: .fit)
+        ZStack { //HStack, VStack
+            
+            Image("logo")
+                .resizable()
+                .aspectRatio(contentMode:.fit)
+            
+            Text("Hello!")
+        }
+  
+
     }
 }
 
